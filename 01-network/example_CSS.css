@@ -1,0 +1,203 @@
+#content{
+	position:relative;
+}
+#dragcontainer{
+  position:relative;
+  min-height:670px;
+}
+.square{
+	float:left;
+	border: 1px solid black;
+	width: 8px;
+	height: 8px;
+	margin-top:3px;
+	margin-right:3px;
+}
+
+#debug_text {
+	margin:0 auto;
+	overflow: auto;
+	height: 80px;
+	width:100%;
+	display:none;
+}
+.border{
+  border: 1px solid #ddd;
+}
+.textFormat{
+  text-align:left;
+  color: black;
+}
+.contConstruct{
+  width: 960px;
+  height:660px;
+  position:relative;
+  margin: 0 auto;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 14px;
+ -webkit-touch-callout: none;
+ -webkit-user-select: none;
+ -khtml-user-select: none;
+ -moz-user-select: none;
+ -ms-user-select: none;
+ user-select: none;
+}
+
+.columns{
+  text-align: center;
+  margin-bottom:10px;
+  margin-left: 10px;
+  float:left;
+}
+.bucket{
+  margin:0;
+}
+.colinfo, .bucketinfo{
+  text-align: center;
+  text-decoration: underline;      
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 14px;
+  color: #fff;
+  background-color: #003399;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  text-decoration: underline;   
+}
+.buckets{
+  float:left;
+}
+.buckets .colinfo{
+  text-align: center;
+  text-decoration: underline;      
+  color: #000;
+  font-size:16px;
+  font-weight: 800;
+  background: url('../img/gradient.png') repeat-x top;
+}
+.bucketinfo{
+  height:auto;
+}
+.colholder, .bucketholder{
+  overflow:auto;
+}
+.bucketholder {
+  text-align:center;
+}
+.colholderactive{
+
+}
+.clear{
+	clear:both;
+	overflow:hidden;
+	height: 1px;
+}
+.entry, .noCloneEntry {
+	color: black;
+	display:block;
+	width:100px;
+	padding: 5px;
+	margin-left:auto;
+	margin-right:auto;
+	margin-top: 5px;
+	background-color: #aaa;
+	border: 1px solid black;
+	position: static;
+	cursor: move;
+    text-align:center;
+	z-index: 500;
+}
+.column .colinfo {
+  text-align: center;
+  text-decoration: underline; 
+  overflow:hidden;  
+  color: #fff;
+  background-color: #109a8c;
+  font-size:16px;
+  font-weight: 800;
+}
+.header {
+	background-color: #666;
+	color: #DDD;
+	cursor: default;
+	padding: 5px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 5px;
+	border: 1px solid black;
+}
+
+.price{
+
+}
+.pricesym, .priceVal {
+	margin: 0 2px;
+	font-size:16px;
+	font-weight: 700;
+	text-align: left;
+}
+.quantity-label{
+	margin-right:5px;
+	text-align: left;
+}
+.quantity{
+	width:50px;
+	border: 1px solid black;
+	color: #666;
+	font-size:16px;
+	font-weight: 900;
+	text-align: left;
+}
+.entry .info-text{
+	font-size:16px;
+	font-weight: 800;
+}
+.bottom, .bottomColumn{
+	color: #fff; 
+	height: 10px;
+	background-color: #109a8c;
+}
+#banner, .columnsTitle{
+	text-align: center;
+	margin-bottom:10px;
+}
+.columnsTitle{
+	color: white;
+	background-color:#109A8C;
+	margin-left:10px;
+	padding-bottom: 5px;
+	padding-top: 5px;
+	float:left;
+	height:20px;
+}
+.productsum {
+  border: thin solid #ddd;
+  color:black;
+  padding-right: 10px;
+  text-align: right;
+}
+.image {
+	width: 90%;
+}
+.entryInfo {
+  text-align:center;
+}
+.msgTitle{
+  margin: 1px;
+  background-color: #109a8c;
+  color: white;
+  padding: 2px 5px;
+}
+.disabled .colinfo, .disabled .bottom{
+  background-color: #ccc;
+}
+.cf { zoom: 1; }
+.cf:before,
+.cf:after { content: ""; display: table; }
+.cf:after { clear: both; } 
+.clearfix {
+	border: medium none;
+	clear: both;
+	height: 1px;
+	margin: 0;
+	padding: 0;
+}	
