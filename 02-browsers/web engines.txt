@@ -1,0 +1,35 @@
+Whole list:
+
+    Gecko is developed by the Mozilla Foundation.
+    Goanna is a fork of Gecko developed by Moonchild Productions.
+    KHTML is developed by the KDE project.
+    Presto is developed by Opera Software for use in Opera. Development stopped as Opera transitioned to Blink.
+    Tasman was developed by Microsoft for use in Internet Explorer 5 for Macintosh.
+    
+    Trident is developed by Microsoft for use in the Windows versions of Internet Explorer 4 to Internet Explorer 11.
+    WebKit is a fork of KHTML by Apple Inc. used in Apple Safari, Chromium and Google Chrome.
+    Blink is a 2013 fork of WebKit's WebCore component by Google used in Chromium, Google Chrome and Opera.
+    Servo is an experimental web browser layout engine being developed cooperatively by Mozilla and Samsung.
+    EdgeHTML is the engine developed by Microsoft for Edge. It is a largely rewritten fork of Trident with all legacy code removed.
+
+Total: 10
+
+Old:
+1) 2014 KHTML is developed by the KDE project.
+2) 2015 Presto is developed by Opera Software for use in Opera. 
+3) 2004 Tasman was developed by Microsoft for use in Internet Explorer 5 for Macintosh.
+4) 2013 WebKit is a fork of KHTML (core changed to Blink)
+5) 2015 Trident is developed by Microsoft (EdgeHTML released)
+
+
+New:
+1) 2017 Gecko is developed by the Mozilla Foundation.
+2) 2017 Goanna is a fork of Gecko developed by Moonchild Productions - Basilisk browser.
+3) 2017 Blink is a 2013 fork of WebKit's WebCore component by Google used in Chromium, Google Chrome and Opera.
+4) 2017 Servo is an experimental web browser
+5) EdgeHTML is the engine developed by Microsoft for Edge.
+
+
+Mobile: 24 browsers.
+
+Dedicated engine, e.g. V8 in Google Chrome or SpiderMonkey in Firefox. 
