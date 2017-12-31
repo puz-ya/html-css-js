@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>Forms</title>
+	</head>
+	<body>
+		
+		<form action="select.php" method="post">
+			<p>
+			<select name="hero">
+				<option disabled="disabled">Choose your hero:</option>
+				<option value="Superman">Superman</option>
+				<option value="Batman">Batman</option>
+				<option value="Wonderwoman">Wonderwoman</option>
+				<option value="Cyborg">Cyborg</option>
+				<option value="Flash">Flash</option>
+			</select>
+			</p>
+			<p>
+			<select size="5" multiple="multiple" name="hero[]">
+				<option disabled="disabled">Choose your hero:</option>
+				<option value="Superman">Superman</option>
+				<option selected="selected" value="Batman">Batman</option>
+				<option value="Wonderwoman">Wonderwoman</option>
+				<option value="Cyborg">Cyborg</option>
+				<option value="Flash">Flash</option>
+			</select>
+			</p>
+			<p><input type="submit" value="Send"></p>
+		</form>
+		
+	</body>
+</html>
